@@ -11,8 +11,6 @@ if (count % 3 == 0)  {
 }
 
 
-
-
 // 2. Shift the Values
 
 //Given any array X, for example [2,1,6,4,-7], create an algorithm that shifts each number by one to the front. When your program is done the output for array [2,1,6,4,-7] should be [-7,4,6,1,2].
@@ -77,7 +75,6 @@ function sumFibs(num) {
 // 5. Remove the Negative
 
 // Given any array X, for example [1,-2,4,1], remove the negative numbers, so that the output becomes: [1,4,1].
-
 var array = [1, -2, 4, 1, -50];
 array = array.filter(function(x) { 
     return x > -1; 
@@ -85,15 +82,15 @@ array = array.filter(function(x) {
 console.log(array);
 
 
+
 // 6. Communist Censorship
 
 //Given the array of strings X = ['Man', 'I','Love','The','Matrix','Program'], replace every letter of the word Program with *, so the output would be ['Man', 'I','Love','The','Matrix','*******']. Then make your algorithm work for any word of your choice
-
 var arr = ['Man', 'I','Love','The','Matrix','Program'];
 var N = 1;
 
 var newValue = '*******';
 
-arr5 = arr.fill(newValue, -1 * N);
-console.log(arr5)
+arr = arr.fill(newValue, -1 * N);
+
 
