@@ -57,10 +57,9 @@ x |1 |4 |2 |12
 // Given an array X, write a program that would find the maximum value of the array. Your program should work also work with negative values (eg. X = [2,-3,-1]) and zero.
 
 
-console.log(Math.max(0, -2, -3, -1));
+console.log(Math.max(0, -2, -3, -1))
 
 x   | 0|-2 |-3|-1
-i   |0 |1 |2 |3
 max |0 |0 |0 |0
 
 // 6. Get Average
@@ -86,8 +85,7 @@ var x = [1, -2, 8, -6];
 console.log(x)
 
 x           |1 |-2 |8 |-6 
-l           |- |0 |- | 0
-i           |0 |1 |2 |3 
+            |0 |1 |2 |3
 console.log |1 |0 |8 | 0
 
 
@@ -105,7 +103,7 @@ for(i=0; i < my_array.length; i++){
 console.log(my_array)
 
 x           |7 |-1 |2 |0 | -2
-l           |- |"Turing"|- | - |"Turing"
+my_array    |- |"Turing"|- | - |"Turing"
 i           |0 |1       |2 |3 | 4
 console.log |7 |"Turing"|2 |0 |"Turing"
 
