@@ -14,5 +14,5 @@ function isPalindrome(letters) {
 
 }
 
-console.log(isPalindrome('detartrated'));
-console.log(isPalindrome('undulating'));
+console.log(isPalindrome('depreciatedd'));
+console.log(isPalindrome('understanding'));
