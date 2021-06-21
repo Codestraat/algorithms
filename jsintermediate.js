@@ -3,11 +3,14 @@
 // Add all the values between 200 and 2700 (inclusively) that are divisible by 3 or 5, but not both 3 and 5. To solve this task you might want to use the modulus operator.
 
 for( var count = 200; count <= 2700; count ++) {
-if (count % 3 == 0 || count % 5 == 0) {
-console.log(count);
+if (count % 3 == 0)  {
+  console.log(count)
+} else (count % 5 == 0) {
+  console.log(count)
+}
 }
 
-}
+
 
 
 // 2. Shift the Values
