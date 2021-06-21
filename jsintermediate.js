@@ -75,8 +75,22 @@ function sumFibs(num) {
 
 // Given any array X, for example [1,-2,4,1], remove the negative numbers, so that the output becomes: [1,4,1].
 
+var array = [1, -2, 4, 1, -50];
+array = array.filter(function(x) { 
+    return x > -1; 
+});
+console.log(array);
+
+
 // 6. Communist Censorship
 
 //Given the array of strings X = ['Man', 'I','Love','The','Matrix','Program'], replace every letter of the word Program with *, so the output would be ['Man', 'I','Love','The','Matrix','*******']. Then make your algorithm work for any word of your choice
 
+var arr = ['Man', 'I','Love','The','Matrix','Program'];
+var N = 1;
+
+var newValue = '*******';
+
+arr5 = arr.fill(newValue, -1 * N);
+console.log(arr5)
 
