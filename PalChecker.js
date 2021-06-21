@@ -1,10 +1,10 @@
 function isPalindrome(letters) {
 
   var characters  = letters.split(''),
-      firstLetter = characters.shift(),
-      lastLetter  = characters.pop();
+      first_Letter = characters.shift(),
+      last_Letter  = characters.pop();
 
-  if (firstLetter !== lastLetter) {
+  if (first_Letter !== last_Letter) {
       return false;
   }
   if (characters.length < 2) {
