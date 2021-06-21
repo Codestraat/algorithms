@@ -7,6 +7,13 @@ for(let i = 1; i <=135; i++){
     console.log([i]);
 }
 
+//Diagram
+// start looping
+// i = 1
+// i = 2
+// i = 3
+// i = ........ 135
+
 
 
 //2. Print Odd Numbers 1 - 135
@@ -18,6 +25,15 @@ for(i = 1; i <= 135; i++){
      console.log([i])
     }
 }
+
+// The start
+// variable i is declared
+// loop start
+// condition statement is set
+// i loop from 1 to 135, 
+// i divisible by 2 is not equal to 0
+// result prime numbers
+
 
 // 3. Sum of Printed Numbers
 
