@@ -43,36 +43,44 @@ sum         |1 |3 |6 |10 |15 |21 |28 |36 |45
 
 // Given an array X = [1,4,2,12], write a program that will iterate through the array and print all numbers on the screen. Your program should work with arrays of all sizes.
 
-var X = [1,4,2,12];
-X.forEach(function(entry) {
-  console.log(entry);
-});
+var arr = [34, 78, 80, 90,67]
+for (var i = 0; i < arr.length; i++){
+    console.log((i + 1) + '. ' + arr[i])
+}
+
 
 i |0 |1 |2 |3
-x |1 |4 |2 |12
+x |34 |78 |80 |90 |67
     
 
 // 5. Find Max
 
 // Given an array X, write a program that would find the maximum value of the array. Your program should work also work with negative values (eg. X = [2,-3,-1]) and zero.
 
+var my_arr = [1, -4, 2, 0];
+var max = my_arr[0];
 
-console.log(Math.max(0, -2, -3, -1))
+for( var i = 1 ; i < my_arr.length; i++){
+    if( max < my_arr[i]){
+        max = my_arr[i];
+    }
+}
+console.log(max);
 
-x   | 0|-2 |-3|-1
-max |0 |0 |0 |0
+
 
 // 6. Get Average
 
 // Given an array X, write a program that will return the average value of all elements in the array. For example, for array X = [2,1,3] your output should be 2.
 
-let avg = [1,2,3].reduce((a,v,i)=>(a*i+v)/(i+1));
-
+var my_arr = [17,15,25,45];
+var avg = 0;
+for(i=0; i<my_arr.length; i++){
+    avg = avg + my_arr[i];
+}
+avr /= my_arr.length;
 console.log(avg)
 
-number  |1 |2 |3 
-i       |0 |1 |2 
-avarage |2
 
 
 
