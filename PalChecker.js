@@ -1,16 +1,16 @@
-function isPalindrome(letters) {
+function isPalindrome(lett) {
 
-  var characters  = letters.split(''),
-      first_Letter = characters.shift(),
-      last_Letter  = characters.pop();
+  var characters  = lett.split(''),
+      first_Lett = chara.shift(),
+      last_Lett  = chara.pop();
 
-  if (first_Letter !== last_Letter) {
+  if (first_Lett !== last_Lett) {
       return false;
   }
-  if (characters.length < 2) {
+  if (chara.length < 2) {
       return true;
   }
-  return isPalindrome(characters.join(''));
+  return isPalindrome(chara.join(''));
 
 }
 
