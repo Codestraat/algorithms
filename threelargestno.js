@@ -1,18 +1,18 @@
 const arr = [5, 2, 8, 20, -2, 0, 11, 7, 3, 9, 31];
- const findThirdMax = (arr) => {
+ const findThirdlarg = (arr) => {
    let [first, second, third] = [-Infinity, -Infinity, -Infinity];
-   for (let el of arr) {
-      if (el === first || el === second || el === third) {
+   for (let element of arr) {
+      if (element === first || element === second || element === third) {
          continue; };
-         if (el > first) {
-            [first, second, third] = [el, first, second]; continue; };
-         if (el > second) {
-            [second, third] = [el, second]; continue;
+         if (element > first) {
+            [first, second, third] = [element, first, second]; continue; };
+         if (element > second) {
+            [second, third] = [element, second]; continue;
           };
-         if (el > third) {
-            third = el; continue;
+         if (element > third) {
+            third = element; continue;
       };
    };
    return third !== -Infinity ? third : first;
 };
-console.log(findThirdMax(arr));
+console.log(findThirdlarg(arr));
