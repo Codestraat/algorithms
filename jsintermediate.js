@@ -45,20 +45,20 @@ console.log(str);
 
 // For a fibonacci sequence starting at 0 and 1 add up all the values below 1,000,000.
 function sumFibs(num) {
-    let previous = 0;
-    let current = 1;
+    let then = 0;
+    let now = 1;
     let sum = 0;
     let next;
   
-    for(current; current <= num;){
-      next = current + previous;
-      previous = current;
+    for(now; now <= num;){
+      next = now + then;
+      then = now;
   
-      if(current % 2 === 0) {
-        sum += current;
+      if(now % 2 === 0) {
+        sum += now;
       }
   
-      current = next;
+      now = next;
     }
   
     return sum;
